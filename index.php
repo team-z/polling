@@ -39,6 +39,9 @@ section {
 			letter-spacing: 10px;
 			font-size: 50px;
 		}
+		p{
+			font-family: 'Josefin Sans', sans-serif;
+		}
 		.navbar-default{
 			padding: 2%;
 			background-color: white;
@@ -135,12 +138,17 @@ section {
 		<div class="container">
         <div class="row">
         <div class="col-md-6">
-        <h1>Tentang Web Ini</h1>
+        <h1 class="wow slideInLeft">Tentang Web Ini</h1>
         <table class="table">
-        	<tr class="wow slideInLeft">
+        	<tr class="wow slideInRight">
         		<td><strong>Project Name</strong></td>
         		<td>:</td>
         		<td>Web Based Polling System</td>
+        	</tr>
+        	<tr class="wow slideInLeft">
+        		<td><strong>Maded By</strong></td>
+        		<td>:</td>
+        		<td>Team Z</td>
         	</tr>
         	<tr class="wow slideInRight">
         		<td><strong>Release Date</strong></td>
@@ -159,30 +167,57 @@ section {
         	</tr>
         </table>
         </div>
-         <div class="col-md-offset-9">
-        	<h1 align="center">Creator :</h1><br>
+            <div class="col-md-offset-9">
+        	<h1 align="center" class="wow slideInRight">Creator :</h1><br>
         	<div class="row">
         		<div class="col-md-6">
-        			<center>
-                    <a href="images/dika.jpg" data-lightbox="image-1">
-        			<img src="images/dika.jpg" width="100" height="100" class="img-circle" alt="Brillyan Gates">
-        			</a>
-        			</center>
-        			<p align="center"><strong>Mahardika</strong></p>
+        		<div class="row wow zoomInLeft">
+                 <center>
+                 	<a href="images/dika.jpg" data-lightbox="image-1">
+                 		<img src="images/dika.jpg" height="100" width="100" class="img-circle">
+                 	</a>
+                 	<p><strong>Mahardika</strong></p>
+                 </center>
+                </div>
+                <div class="row wow zoomInLeft">
+                 <center>
+                 	<a href="images/nadia.jpg" data-lightbox="image-1">
+                 		<img src="images/nadia.jpg" height="100" width="100" class="img-circle">
+                 	</a>
+                 	<p><strong>Nadia</strong></p>
+                 </center>
+                </div>
         		</div>
         		<div class="col-md-6">
-        			<center>
-        			<a data-lightbox="image-1" href="images/bril.jpg">
-        			<img src="images/bril.jpg" width="100" height="100" class="img-circle" alt="">
-        			</a>
-        			</center>
-        			<p align="center"><strong>User 2</strong></p>
+        		<div class="row wow zoomInRight">
+                 <center>
+                 	<a href="images/bela.jpg" data-lightbox="image-1">
+                 		<img src="images/bela.jpg" height="100" width="100" class="img-circle">
+                 	</a>
+                 	<p><strong>Bella</strong></p>
+                 </center>
+                </div>
+                <div class="row wow zoomInRight">
+                 <center>
+                 	<a href="images/yofan.jpg" data-lightbox="image-1">
+                 		<img src="images/yofan.jpg" height="100" width="100" class="img-circle">
+                 	</a>
+                 	<p><strong>Yofandi</strong></p>
+                 </center>
+                </div>
         		</div>
+        	</div>
         	</div>
          </div>
         </div>
 	</section>
-   
+   <nav style="padding: 1%;font-size: 25px;font-weight: bolder;">
+        <div class="container">
+        <div class="navbar-footer navbar-inverse" style="background-color: #fff">
+                <p align="center" style="letter-spacing: 10px;">Copyright 2017 || Powered by : Team-Z</p>
+        </div>    
+        </div>
+    </nav>
   <script src="js/wow.js"></script>
    <script type="text/javascript">
      new WOW().init();
