@@ -211,10 +211,10 @@ section {
          </div>
         </div>
 	</section>
-   <nav style="padding: 1%;font-size: 25px;font-weight: bolder;">
+   <nav style="padding: 1%;font-size: 25px;">
         <div class="container">
         <div class="navbar-footer navbar-inverse" style="background-color: #fff">
-                <p align="center" style="letter-spacing: 10px;">Copyright 2017 || Powered by : Team-Z</p>
+                <p align="center" style="font-family: 'Varela Round', sans-serif ;letter-spacing: 10px;">Copyright 2017 || Powered by : Team-Z</p>
         </div>    
         </div>
     </nav>
