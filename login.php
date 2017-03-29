@@ -14,12 +14,12 @@
     	<div class="panel panel-primary animated zoomInDown">
     		<div class="panel-heading"><h1>Login</h1></div>
     	<div class="panel-body">
-    		<form>
+    		<form method="post" action="ceklog.php">
     			<div class="form-group">
     				<input type="text" class="form-control input-lg" placeholder="Masukkan Nomor Induk Siswa" name="nis">
     			</div>
     			<div class="form-group">
-    				<button class="btn btn-default btn-block">Login</button>
+    				<button name="login" type="submit" class="btn btn-default btn-block">Login</button>
     			</div>
     		</form>
     	</div>
