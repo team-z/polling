@@ -16,7 +16,7 @@
     	<div class="jumbotron animated zoomInUp">
     		<h2>Terima Kasih Atas Partsipasinya</h2>
     		<h4>Penghitungan Suara akan dilakukan setelah proses voting berakhir</h4>
-    		<a href="" class="btn btn-default btn-lg">Keluar</a>
+    		<a href="index.php" class="btn btn-default btn-lg">Keluar</a>
     		<br>
     		<p align="right">Developed By : Team Z</p>
     	</div>

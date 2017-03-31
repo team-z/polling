@@ -92,7 +92,7 @@ section {
   <br><br><br><br><br><br><br><br>
   <div class="container" style="padding: 3%;">
   	<h1 align="center" class="animated zoomInDown">Welcome To Web Based Polling System</h1><br>
-  	<center><a class="btn btn-lg btn-default animated zoomInDown" style="font-size: 20px;padding: 2%;letter-spacing: 10px;" href="#features">Get Started</a></center>
+  	<center><a class="btn btn-lg btn-default animated zoomInDown" style="font-size: 20px;padding: 2%;letter-spacing: 10px;" href="beranda.php">Get Started</a></center>
   </div>
   </section>
 </div>
