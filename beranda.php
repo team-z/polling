@@ -59,7 +59,6 @@
                     </div>   
                     </div>
                 </div>
-                <form method="post" action="proses.php">
                 <div class="row">
                 <?php
 include("koneksi.php");
@@ -79,7 +78,6 @@ while ($data=mysqli_fetch_array($sql)) {
                 </div>
                 <?php } ?>
                 </div>
-                </form>
                 </div>
             </div>
         </div>

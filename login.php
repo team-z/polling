@@ -15,8 +15,11 @@
     		<div class="panel-heading"><h1>Login</h1></div>
     	<div class="panel-body">
     		<form method="post" action="ceklog.php">
+                <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="Username" name="user">
+                </div>
     			<div class="form-group">
-    				<input type="text" class="form-control input-lg" placeholder="Masukkan Nomor Induk Siswa" name="nis">
+    				<input type="text" class="form-control input-lg" placeholder="Password" name="pass">
     			</div>
     			<div class="form-group">
     				<button name="login" type="submit" class="btn btn-default btn-block">Login</button>

@@ -1,20 +1,14 @@
 <?php 
-
 include "koneksi.php";
 if (isset($_POST['login'])) {
-	$nis1=$_POST['nis'];
-	$nis=mysqli_real_escape_string($nis1);
-	$sql=mysqli_query($link,"SELECT * FROM pemilih WHERE nis = '$nis'");
+	$user=$_POST['user'];
+	$pass=$_POST['pass'];
+	$sql=mysqli_query($link,"SELECT * FROM admin WHERE username='$user' AND password='$pass' ");
 	if ($sql) {
-		$row=mysqli_fetch_array($sql);
+		$data = mysqli_fetch_array($sql);
 		session_start();
-		$_SESSION['nis']= $row['nis'];
-		$_SESSION['username']= $row['nama'];
-		$_SESSION['kelas']= $row['kelas'];
-		$_SESSION['sekolah']= $row['sekolah'];
+		$_SESSION['user'] = $data['username'];
 		header("location:home.php");
-	}else{
-		echo "gagal";
 	}
 }
 
